@@ -1,229 +1,89 @@
-<div align="center">
+🚀 Aditya Vawhal
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,55:0a0e17,100:0d1424&height=220&section=header&text=AV%20/%20SYSTEMS%20%C2%B7%20AI%20%C2%B7%20SOFTWARE&fontSize=34&fontColor=8b5cf6&fontAlignY=45&animation=fadeIn&desc=Aditya%20Vawhal%20%E2%80%94%20AI%20Systems%20Engineer%20%C2%B7%20Researcher%20%C2%B7%20Full-Stack%20Developer&descAlignY=63&descSize=16&descColor=e2e8f0" width="100%"/>
+AI Systems Engineer · Researcher · Full-Stack Developer
 
-<br/>
+"Building reliable, well-engineered software at the edge of AI and distributed systems"
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=AI+Systems+Engineer;Research+Enthusiast;Full-Stack+Developer;Distributed+Systems+Builder;Open+Source+Contributor" alt="Typing SVG" /> </p>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+👨‍💻 About Me
 
-**Building reliable, well-engineered software at the edge of AI and distributed systems.**
+I am a Software Engineer focused on designing intelligent systems that solve practical problems using modern software engineering practices and artificial intelligence. My work combines backend development, frontend engineering, AI integration, research-driven thinking, and product development.
 
-<br/>
+<div align="center"> <table> <tr> <td align="center" width="33%"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3E0d2hmdGx1a3F0Z29yN2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LmNwrBhejkK9EFP504/giphy.gif" width="80" /> <br><strong>🧠 AI & ML</strong> <br><sub>LLMs · Deep Learning · RAG</sub> </td> <td align="center" width="33%"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDFhZ2J5dWp5b3I0b2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q7SKqn3G97xpmfMPv8/giphy.gif" width="80" /> <br><strong>⚡ Systems</strong> <br><sub>Distributed · Scalable · Reliable</sub> </td> <td align="center" width="33%"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGFxM2h1d2p5cXlqY2s1dGx1a3JxY3p1b3I1b2l0cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZVik7pBtu9dNS/giphy.gif" width="80" /> <br><strong>🚀 Product</strong> <br><sub>Full-Stack · UX · Innovation</sub> </td> </tr> </table> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🎯 Current Focus
 
-[![GitHub](https://img.shields.io/badge/GitHub-AdityaVawhal15--maker-0a0e17?style=for-the-badge&logo=github&logoColor=8b5cf6)](https://github.com/AdityaVawhal15-maker)
-[![Email](https://img.shields.io/badge/Email-TODO-0a0e17?style=for-the-badge&logo=gmail&logoColor=8b5cf6)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-TODO-0a0e17?style=for-the-badge&logo=linkedin&logoColor=8b5cf6)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-TODO-0a0e17?style=for-the-badge&logo=vercel&logoColor=8b5cf6)](#)
+<div align="center"> <table border="0" cellpadding="20"> <tr> <td align="center"> <img src="https://img.shields.io/badge/🔨_Building-DeepEnk%20·%20CYBERNOVA%20·%20CareQueue%20AI-3B82F6?style=for-the-badge" /> </td> </tr> <tr> <td align="center"> <img src="https://img.shields.io/badge/🧪_Researching-LLMs%20·%20Distributed%20Systems%20·%20AI%20Infrastructure-8B5CF6?style=for-the-badge" /> </td> </tr> <tr> <td align="center"> <img src="https://img.shields.io/badge/📚_Learning-Rust%20·%20Go%20·%20Kubernetes%20·%20GPU%20Computing-EC4899?style=for-the-badge" /> </td> </tr> <tr> <td align="center"> <img src="https://img.shields.io/badge/🤝_Looking_For-Research%20Collaborations%20·%20Open%20Source-06B6D4?style=for-the-badge" /> </td> </tr> </table> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🧠 Engineering Philosophy
 
-</div>
+<div align="center"> <table> <tr> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/simple.png" /> <br><b>Simple</b> <br><sub>before complex</sub> </td> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/reliable.png" /> <br><b>Reliable</b> <br><sub>before clever</sub> </td> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/maintenance.png" /> <br><b>Maintainable</b> <br><sub>before rushed</sub> </td> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/read.png" /> <br><b>Readable</b> <br><sub>before optimized</sub> </td> </tr> <tr> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/scale.png" /> <br><b>Scalable</b> <br><sub>before reactive</sub> </td> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/document.png" /> <br><b>Documented</b> <br><sub>always</sub> </td> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/test-passed.png" /> <br><b>Testable</b> <br><sub>by design</sub> </td> <td align="center" width="25%"> <img src="https://img.icons8.com/color/48/000000/architecture.png" /> <br><b>Long-term</b> <br><sub>architecture first</sub> </td> </tr> </table> </div>
+"Every system should have a clear architecture. Every feature should solve a real problem."
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+⚡ Technical Expertise
 
-<br/>
+🖥️ Languages
 
-## Introduction
+<p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0a0e17" /> <br> <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=0a0e17" /> </p>
+🎨 Frontend
 
-I'm an AI Systems Engineer in progress — currently interning as a **Frontend Developer at PW LeapX**, where I'm building a Trello-style project management platform, and pursuing a **dual degree**: B.Sc. in Data Science & Applications from **IIT Madras** and B.Tech in Computer Science from **PW Institute of Innovation**.
+<p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=0a0e17" /> </p>
+⚙️ Backend & API
 
-My work sits at the intersection of AI, backend systems, and interface engineering. I care about architecture before implementation, documentation as a first-class deliverable, and shipping things that actually hold up in production — not just in a demo.
+<p align="center"> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=0a0e17" /> </p>
+🤖 AI & Machine Learning
 
-<br/>
+<p align="center"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/LLM-000000?style=for-the-badge&logo=ai&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/RAG-FF6B6B?style=for-the-badge&logo=ai&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Transformers-FFD700?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=0a0e17" /> </p>
+🗄️ Databases
 
-## Snapshot
+<p align="center"> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white&labelColor=0a0e17" /> </p>
+☁️ Cloud & DevOps
 
-<div align="center">
+<p align="center"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0a0e17" /> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white&labelColor=0a0e17" /> </p>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🚀 Featured Projects
 
-| | |
-|---|---|
-| **Role** | AI Systems Engineer *(in progress)* · Frontend Developer Intern @ PW LeapX |
-| **Education** | B.Sc. Data Science & Applications — IIT Madras *(ongoing)* · B.Tech CS — PW Institute of Innovation |
-| **Research** | Exposure at Microsoft Research India · IIT Madras HPC Lab |
-| **Leadership** | Founder, IOI Innovation Club (250+ members) |
-| **Currently Building** | LeapX Activity Log module · BrandPilot AI |
-| **Currently Learning** | Distributed Systems · System Design · MLOps · Rust · Kubernetes |
+<table align="center"> <tr> <td width="100%" align="center"> <h2>DeepEnk</h2> <p><strong>AI-powered intelligent decision platform</strong></p> <table> <tr> <td width="50%" valign="top"> <h4>🎯 Problem</h4> <p>Organizations struggle to make data-driven decisions quickly and accurately due to fragmented information and lack of intelligent analysis.</p> <h4>💡 Solution</h4> <p>DeepEnk provides an AI-powered platform that integrates data sources, applies advanced analytics, and delivers actionable insights through an intuitive interface.</p> <h4>⚙️ Tech Stack</h4> <p> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> </p> <h4>📊 Status</h4> <p>🔨 In Development</p> </td> <td width="50%" align="center"> <img src="https://via.placeholder.com/400x250/0a0e17/3B82F6?text=DeepEnk+Architecture" width="90%" /> </td> </tr> </table> </td> </tr> </table>
+<table align="center"> <tr> <td width="100%" align="center"> <h2>CYBERNOVA</h2> <p><strong>AI-powered cybersecurity platform</strong></p> <table> <tr> <td width="50%" align="center"> <img src="https://via.placeholder.com/400x250/0a0e17/8B5CF6?text=CYBERNOVA+System" width="90%" /> </td> <td width="50%" valign="top"> <h4>🎯 Problem</h4> <p>Traditional cybersecurity solutions struggle to keep pace with evolving threats and often rely on reactive rather than proactive defense mechanisms.</p> <h4>💡 Solution</h4> <p>CYBERNOVA leverages AI to detect, analyze, and respond to security threats in real-time, providing proactive protection for modern infrastructure.</p> <h4>⚙️ Tech Stack</h4> <p> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" /> </p> <h4>📊 Status</h4> <p>🔨 In Development</p> </td> </tr> </table> </td> </tr> </table>
+<table align="center"> <tr> <td width="100%" align="center"> <h2>CareQueue AI</h2> <p><strong>Healthcare intelligence platform</strong></p> <table> <tr> <td width="50%" valign="top"> <h4>🎯 Problem</h4> <p>Healthcare providers face challenges in patient queue management, resource allocation, and predictive care delivery.</p> <h4>💡 Solution</h4> <p>CareQueue AI applies machine learning to optimize patient flow, predict resource needs, and improve healthcare delivery efficiency.</p> <h4>⚙️ Tech Stack</h4> <p> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" /> </p> <h4>📊 Status</h4> <p>🔨 In Development</p> </td> <td width="50%" align="center"> <img src="https://via.placeholder.com/400x250/0a0e17/EC4899?text=CareQueue+AI+Flow" width="90%" /> </td> </tr> </table> </td> </tr> </table>
+<table align="center"> <tr> <td width="100%" align="center"> <h2>Aethelgrad-Core</h2> <p><strong>Systems engineering project</strong></p> <table> <tr> <td width="50%" align="center"> <img src="https://via.placeholder.com/400x250/0a0e17/06B6D4?text=Aethelgrad+Core" width="90%" /> </td> <td width="50%" valign="top"> <h4>🎯 Problem</h4> <p>Building robust, production-ready systems requires deep understanding of core engineering principles and architecture patterns.</p> <h4>💡 Solution</h4> <p>Aethelgrad-Core explores systems engineering concepts through practical implementation, focusing on distributed systems, performance, and reliability.</p> <h4>⚙️ Tech Stack</h4> <p> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" /> <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" /> </p> <h4>📊 Status</h4> <p>🔨 In Development</p> </td> </tr> </table> </td> </tr> </table>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🏗️ Architecture Showcase
 
-</div>
+<div align="center"> <table> <tr> <td align="center"> <img src="https://via.placeholder.com/500x300/0a0e17/3B82F6?text=LLM+Pipeline+Architecture" width="100%" /> <br><b>LLM Pipeline Architecture</b> </td> <td align="center"> <img src="https://via.placeholder.com/500x300/0a0e17/8B5CF6?text=Distributed+Systems+Design" width="100%" /> <br><b>Distributed Systems Design</b> </td> </tr> <tr> <td align="center"> <img src="https://via.placeholder.com/500x300/0a0e17/EC4899?text=Microservices+Architecture" width="100%" /> <br><b>Microservices Architecture</b> </td> <td align="center"> <img src="https://via.placeholder.com/500x300/0a0e17/06B6D4?text=CI%2FCD+Pipeline" width="100%" /> <br><b>CI/CD Pipeline</b> </td> </tr> </table> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🔬 Research & Innovation
 
-<br/>
+<div align="center"> <table> <tr> <td valign="top" width="50%"> <h3>🔭 Research Interests</h3> <ul> <li>Large Language Models (LLMs)</li> <li>Distributed AI Systems</li> <li>GPU Computing & Performance Engineering</li> <li>AI Infrastructure & MLOps</li> <li>Model Evaluation & Optimization</li> </ul> </td> <td valign="top" width="50%"> <h3>📚 Research Experience</h3> <ul> <li>🔬 Microsoft Research India - Research Exposure</li> <li>🧪 IIT Madras HPC Lab - Research Exposure</li> <li>📊 Bachelor of Engineering - Computer Science (AI & ML)</li> <li>🎓 IIT Madras - Data Science & Applications</li> </ul> </td> </tr> </table> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+📊 GitHub Analytics
 
-## Currently
+<div align="center"> <a href="https://github.com/AdityaVawhal15-maker"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AdityaVawhal15-maker&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0a0e17&title_color=3B82F6&icon_color=8B5CF6&text_color=ffffff" /> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaVawhal15-maker&layout=compact&theme=radical&hide_border=true&bg_color=0a0e17&title_color=3B82F6&text_color=ffffff" /> </a> </div><div align="center"> <a href="https://github.com/AdityaVawhal15-maker"> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaVawhal15-maker&theme=radical&hide_border=true&background=0a0e17&stroke=3B82F6&ring=3B82F6&fire=8B5CF6&currStreakNum=ffffff&sideNums=3B82F6&currStreakLabel=3B82F6&sideLabels=3B82F6&dates=ffffff" /> <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaVawhal15-maker&custom_title=Aditya%27s%20Contribution%20Graph&theme=react-dark&bg_color=0a0e17&hide_border=true&line=3B82F6&point=8B5CF6&color=ffffff" /> </a> </div><div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=AdityaVawhal15-maker&theme=radical&no-frame=true&no-bg=true&row=1&column=6&margin-w=15&margin-h=15" /> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+📈 Professional Timeline
 
-```
-Building      → LeapX Activity Log (architecture → PR), BrandPilot AI, DeepEnk, CYBERNOVA, CareQueue AI
-Researching   → LLM systems, AI infrastructure, distributed systems
-Learning      → System Design, Distributed Systems, GPU Computing, MLOps, Rust, Kubernetes, AWS
-Looking for   → International research/engineering opportunities (IAESTE, MBZUAI UGRIP, Mitacs Globalink)
-```
+<div align="center"> <table> <tr> <td width="50%" align="right"> <b>🎓 2024 - Present</b> </td> <td width="50%" align="left"> <b>Bachelor of Engineering</b> - Computer Science (AI & ML) <br><sub>Focus on Artificial Intelligence & Machine Learning</sub> </td> </tr> <tr> <td width="50%" align="right"> <b>🎓 2024 - Present</b> </td> <td width="50%" align="left"> <b>B.Sc. Data Science & Applications</b> - IIT Madras (Online) <br><sub>Data Science, Statistics, AI Applications</sub> </td> </tr> <tr> <td width="50%" align="right"> <b>🔬 2024</b> </td> <td width="50%" align="left"> <b>Research Exposure</b> - Microsoft Research India <br><sub>AI Research, Distributed Systems</sub> </td> </tr> <tr> <td width="50%" align="right"> <b>🧪 2024</b> </td> <td width="50%" align="left"> <b>Research Exposure</b> - IIT Madras HPC Lab <br><sub>High Performance Computing, GPU Computing</sub> </td> </tr> <tr> <td width="50%" align="right"> <b>🚀 2024</b> </td> <td width="50%" align="left"> <b>Founder</b> - IOI Innovation Club <br><sub>Developer Community, Knowledge Sharing, Technical Collaboration</sub> </td> </tr> </table> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🌟 Achievements
 
-<br/>
+<div align="center"> <table> <tr> <td align="center" width="33%"> <img src="https://img.icons8.com/color/48/000000/research.png" /> <br><b>Research Excellence</b> <br><sub>Microsoft Research India & IIT Madras HPC Lab</sub> </td> <td align="center" width="33%"> <img src="https://img.icons8.com/color/48/000000/leadership.png" /> <br><b>Leadership</b> <br><sub>Founder - IOI Innovation Club</sub> </td> <td align="center" width="33%"> <img src="https://img.icons8.com/color/48/000000/education.png" /> <br><b>Academic Excellence</b> <br><sub>B.E. Computer Science + IIT Madras Data Science</sub> </td> </tr> </table> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+📚 Learning Roadmap
 
-## Engineering Philosophy
+<div align="center"> <table> <tr> <td align="center" width="33%"> <h3>🔴 Current</h3> <ul> <li>Rust Programming</li> <li>Go Language</li> <li>Kubernetes</li> <li>GPU Computing</li> <li>Distributed Systems</li> </ul> </td> <td align="center" width="33%"> <h3>🟡 Next</h3> <ul> <li>System Design</li> <li>MLOps</li> <li>Cloud Engineering</li> <li>AI Infrastructure</li> <li>Performance Engineering</li> </ul> </td> <td align="center" width="33%"> <h3>🟢 Future</h3> <ul> <li>Research Publications</li> <li>Open Source Contributions</li> <li>AI Product Development</li> <li>Distributed AI Systems</li> <li>Engineering Leadership</li> </ul> </td> </tr> </table> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🔗 Connect With Me
 
-- **Simple before clever** — the straightforward solution is the default, not the fallback.
-- **Architecture before code** — every system starts with a clear design, not a blank editor.
-- **Documentation is part of the deliverable** — a project isn't done until it's explained.
-- **Readable > optimized, until proven otherwise** — premature optimization is a liability.
-- **Own the full lifecycle** — from design doc to PR to retrospective.
+<div align="center"> <a href="https://github.com/AdityaVawhal15-maker"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://linkedin.com/in/adityavawhal"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="mailto:adityavawhal15@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Website-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white" /> </a> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+🏆 Visitor Counter
 
-<br/>
+<div align="center"> <img src="https://komarev.com/ghpvc/?username=AdityaVawhal15-maker&color=3B82F6&style=for-the-badge" /> <br><br> <img src="https://img.shields.io/github/followers/AdityaVawhal15-maker?label=Followers&style=for-the-badge&color=8B5CF6&labelColor=0a0e17" /> <img src="https://img.shields.io/github/stars/AdityaVawhal15-maker?label=Stars&style=for-the-badge&color=EC4899&labelColor=0a0e17" /> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
+💭 Final Thought
 
-## Technical Expertise
+<div align="center"> <blockquote> <i>"Build software that positively impacts millions of people through intelligent engineering. Create systems that are scalable, maintainable, and reliable. Contribute to open-source software. Publish meaningful research. Build products that solve real-world problems. Continuously improve as an engineer."</i> </blockquote> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/AdityaVawhal15-maker/AdityaVawhal15-maker/output/snake.svg" alt="Snake animation" /> </div>
+<div align="center"> <sub>Built with ❤️ by Aditya Vawhal</sub> <br> <sub>© 2024 - Present · AI Systems Engineer</sub> </div>
+<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </div>
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0a0e17?style=flat-square&logo=python&logoColor=8b5cf6)
-![Java](https://img.shields.io/badge/Java-0a0e17?style=flat-square&logo=openjdk&logoColor=8b5cf6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0a0e17?style=flat-square&logo=javascript&logoColor=8b5cf6)
-![TypeScript](https://img.shields.io/badge/TypeScript-0a0e17?style=flat-square&logo=typescript&logoColor=8b5cf6)
-![C++](https://img.shields.io/badge/C++-0a0e17?style=flat-square&logo=cplusplus&logoColor=8b5cf6)
-![SQL](https://img.shields.io/badge/SQL-0a0e17?style=flat-square&logo=postgresql&logoColor=8b5cf6)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-0a0e17?style=flat-square&logo=react&logoColor=8b5cf6)
-![Next.js](https://img.shields.io/badge/Next.js-0a0e17?style=flat-square&logo=nextdotjs&logoColor=8b5cf6)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-0a0e17?style=flat-square&logo=tailwindcss&logoColor=8b5cf6)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-0a0e17?style=flat-square&logo=bootstrap&logoColor=8b5cf6)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-0a0e17?style=flat-square&logo=nodedotjs&logoColor=8b5cf6)
-![Express](https://img.shields.io/badge/Express-0a0e17?style=flat-square&logo=express&logoColor=8b5cf6)
-![FastAPI](https://img.shields.io/badge/FastAPI-0a0e17?style=flat-square&logo=fastapi&logoColor=8b5cf6)
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-0a0e17?style=flat-square&logo=pytorch&logoColor=8b5cf6)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0a0e17?style=flat-square&logo=tensorflow&logoColor=8b5cf6)
-![RAG](https://img.shields.io/badge/RAG-0a0e17?style=flat-square&logo=databricks&logoColor=8b5cf6)
-![Transformers](https://img.shields.io/badge/Transformers-0a0e17?style=flat-square&logo=huggingface&logoColor=8b5cf6)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0e17?style=flat-square&logo=postgresql&logoColor=8b5cf6)
-![MongoDB](https://img.shields.io/badge/MongoDB-0a0e17?style=flat-square&logo=mongodb&logoColor=8b5cf6)
-![MySQL](https://img.shields.io/badge/MySQL-0a0e17?style=flat-square&logo=mysql&logoColor=8b5cf6)
-![Redis](https://img.shields.io/badge/Redis-0a0e17?style=flat-square&logo=redis&logoColor=8b5cf6)
-
-**Cloud & Tools**
-
-![Docker](https://img.shields.io/badge/Docker-0a0e17?style=flat-square&logo=docker&logoColor=8b5cf6)
-![Linux](https://img.shields.io/badge/Linux-0a0e17?style=flat-square&logo=linux&logoColor=8b5cf6)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0a0e17?style=flat-square&logo=githubactions&logoColor=8b5cf6)
-![Git](https://img.shields.io/badge/Git-0a0e17?style=flat-square&logo=git&logoColor=8b5cf6)
-![Figma](https://img.shields.io/badge/Figma-0a0e17?style=flat-square&logo=figma&logoColor=8b5cf6)
-
-*Currently learning: Rust · Go · Kubernetes · AWS*
-
-<br/>
-
-## Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### DeepEnk
-AI-powered intelligent decision platform.
-
-**Status:** In development
-**Repo:** `TODO`
-
-</td>
-<td width="50%" valign="top">
-
-### CYBERNOVA
-AI-powered cybersecurity platform.
-
-**Status:** In development
-**Repo:** `TODO`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### CareQueue AI
-Healthcare intelligence platform.
-
-**Status:** In development
-**Repo:** `TODO`
-
-</td>
-<td width="50%" valign="top">
-
-### Aethelgrad-Core
-Systems engineering project.
-
-**Status:** In development
-**Repo:** `TODO`
-
-</td>
-</tr>
-</table>
-
-**LeapX — Activity Log Module**
-Built out an Activity Log module for LeapX, a Trello-style project management board, through a full development lifecycle — architecture, implementation, and Git PR submission — as part of a frontend internship at PW LeapX.
-
-**BrandPilot AI**
-Startup concept for an autonomous AI marketing system for SMBs. Built a 15-slide investor pitch deck covering market sizing, agent architecture, pricing tiers, and risk analysis.
-
-<br/>
-
-<details>
-<summary><strong>Prior internships & applied work</strong></summary>
-<br/>
-
-- Internships: **DeepEnk**, **Acmegrade**, **Technoled**, **PW LeapX**, plus a freelance game development project
-- Built and maintained a multi-sheet Excel task tracker as OJT team leader, coordinating a five-person team across six projects including a Kanban Task Board and an Enterprise SPA Dashboard
-- Designed a Social Media Database Management System in MySQL (schema design, 3NF normalization, joins, views, indexes)
-- Built creative, emotionally rich web experiences — interactive websites with animation, parallax, and cinematic storytelling
-
-</details>
-
-<br/>
-
-## Research
-
-**Interests:** Large Language Models · AI Systems · Distributed Systems · GPU Computing · AI Infrastructure · Model Evaluation · Developer Tools
-
-**Exposure:** Microsoft Research India · IIT Madras HPC Lab
-
-**Publications:** `TODO`
-
-<br/>
-
-## Leadership & Community
-
-**Founder — IOI Innovation Club** (250+ members)
-Built a developer community centered on knowledge sharing and technical collaboration.
-
-Track record of hackathon wins, including at national level. Actively pursuing international research and engineering opportunities (IAESTE, MBZUAI UGRIP, Mitacs Globalink).
-
-<br/>
-
-## GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=AdityaVawhal15-maker&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e17&title_color=8b5cf6&icon_color=3b82f6&text_color=e2e8f0" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaVawhal15-maker&theme=dark&hide_border=true&background=0a0e17&stroke=0a0e17&ring=8b5cf6&fire=3b82f6&currStreakLabel=8b5cf6" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaVawhal15-maker&layout=compact&theme=dark&hide_border=true&bg_color=0a0e17&title_color=8b5cf6&text_color=e2e8f0" height="165"/>
-
-</div>
-
-<br/>
-
-## Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-AdityaVawhal15--maker-0a0e17?style=for-the-badge&logo=github&logoColor=8b5cf6)](https://github.com/AdityaVawhal15-maker)
-[![Email](https://img.shields.io/badge/Email-TODO-0a0e17?style=for-the-badge&logo=gmail&logoColor=8b5cf6)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-TODO-0a0e17?style=for-the-badge&logo=linkedin&logoColor=8b5cf6)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-TODO-0a0e17?style=for-the-badge&logo=vercel&logoColor=8b5cf6)](#)
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1424,55:0a0e17,100:05070d&height=120&section=footer"/>
-
-</div>
