@@ -1,4 +1,59 @@
 <div align="center">
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="55%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="260" fill="url(#bg)"/>
+  <rect width="1000" height="260" fill="url(#glow)"/>
+
+  <!-- fine grid, subtle -->
+  <g stroke="#ffffff" stroke-opacity="0.035">
+    <path d="M0 60 H1000"/>
+    <path d="M0 120 H1000"/>
+    <path d="M0 180 H1000"/>
+    <path d="M120 0 V260"/>
+    <path d="M420 0 V260"/>
+    <path d="M720 0 V260"/>
+  </g>
+
+  <!-- accent rule -->
+  <rect x="60" y="72" width="46" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="60" y="60" font-family="'SF Mono','Consolas',monospace" font-size="14" letter-spacing="4" fill="#5b7bd6">AV / SYSTEMS · AI · SOFTWARE</text>
+
+  <text x="60" y="128" font-family="'Helvetica Neue',Arial,sans-serif" font-size="46" font-weight="700" fill="#f3f5f9">Aditya Vawhal</text>
+
+  <text x="60" y="164" font-family="'Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="500" fill="#a9b4c9">AI Systems Engineer &#183; Researcher &#183; Full-Stack Developer</text>
+
+  <text x="60" y="200" font-family="'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#6c7789">Building reliable, well-engineered software at the edge of AI and distributed systems.</text>
+
+  <!-- minimal node graphic, right side -->
+  <g transform="translate(800,60)" stroke="url(#accent)" stroke-width="1.4" fill="none" opacity="0.85">
+    <circle cx="0" cy="0" r="5" fill="#3b82f6" stroke="none"/>
+    <circle cx="90" cy="40" r="5" fill="#8b5cf6" stroke="none"/>
+    <circle cx="30" cy="100" r="5" fill="#3b82f6" stroke="none"/>
+    <circle cx="120" cy="120" r="5" fill="#8b5cf6" stroke="none"/>
+    <path d="M0 0 L90 40 M90 40 L30 100 M30 100 L120 120 M0 0 L30 100"/>
+  </g>
+
+  <rect x="0" y="256" width="1000" height="4" fill="url(#accent)"/>
+</svg>
 
 <img src="./assets/hero-banner.svg" alt="Aditya Vawhal — AI Systems Engineer, Researcher, Full-Stack Developer" width="100%" />
 
