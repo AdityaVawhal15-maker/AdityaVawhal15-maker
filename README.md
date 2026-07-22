@@ -1,352 +1,172 @@
-<div align="center">
-
-<!-- HERO BANNER ANIMATED SVG -->
-<svg width="100%" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- Background Animated Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="50%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#020617"/>
-    </linearGradient>
-
-    <!-- Glowing Grid Overlay -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38BDF8" stroke-opacity="0.07" stroke-width="1"/>
-      <circle cx="40" cy="40" r="1.5" fill="#818CF8" fill-opacity="0.2"/>
-    </pattern>
-
-    <!-- Dynamic Linear Mesh Gradient -->
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8">
-        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#C084FC;#38BDF8" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#818CF8">
-        <animate attributeName="stop-color" values="#818CF8;#C084FC;#38BDF8;#818CF8" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#C084FC">
-        <animate attributeName="stop-color" values="#C084FC;#38BDF8;#818CF8;#C084FC" dur="8s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-
-    <!-- Radial Glowing Orb -->
-    <radialGradient id="heroGlow" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25"/>
-      <stop offset="60%" stop-color="#818CF8" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- CSS Keyframe Animations for GitHub Renderer -->
-    <style>
-      .pulse-orb {
-        animation: pulse 6s ease-in-out infinite alternate;
-      }
-      .node-flow {
-        stroke-dasharray: 8, 8;
-        animation: flow 20s linear infinite;
-      }
-      .title-glow {
-        filter: drop-shadow(0px 0px 12px rgba(56, 189, 248, 0.4));
-      }
-      @keyframes pulse {
-        0% { opacity: 0.3; transform: scale(0.98); }
-        100% { opacity: 0.7; transform: scale(1.02); }
-      }
-      @keyframes flow {
-        0% { stroke-dashoffset: 100; }
-        100% { stroke-dashoffset: 0; }
-      }
-    </style>
-  </defs>
-
-  <!-- Canvas Base -->
-  <rect width="1000" height="320" rx="16" fill="url(#bgGrad)"/>
-  <rect width="1000" height="320" rx="16" fill="url(#grid)"/>
-  <circle cx="500" cy="160" r="380" fill="url(#heroGlow)" class="pulse-orb"/>
-  <rect width="1000" height="320" rx="16" stroke="#1E293B" stroke-width="1.5"/>
-
-  <!-- Top Accent Beam -->
-  <rect x="0" y="0" width="1000" height="4" fill="url(#accentGrad)"/>
-
-  <!-- Background Architecture Circuit Lines -->
-  <path d="M 100 160 L 300 160 L 380 220 L 620 220 L 700 160 L 900 160" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-opacity="0.3" class="node-flow"/>
-
-  <!-- Core Content Stack -->
-  <g class="title-glow">
-    <text x="500" y="85" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="5" text-anchor="middle">
-      🚀 ADITYA VAWHAL
-    </text>
-  </g>
-
-  <text x="500" y="140" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="800" letter-spacing="-0.8" text-anchor="middle">
-    AI Systems Engineer &bull; Researcher &bull; Full-Stack Developer
-  </text>
-
-  <text x="500" y="180" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="400" text-anchor="middle">
-    Engineering production-grade intelligence, distributed backends, and high-performance software.
-  </text>
-
-  <!-- Key Competency Pills (Rendered Vector Graphics) -->
-  <g transform="translate(230, 225)">
-    <!-- Pill 1 -->
-    <rect x="0" y="0" width="160" height="34" rx="17" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
-    <circle cx="20" cy="17" r="4" fill="#38BDF8"/>
-    <text x="92" y="21" fill="#E2E8F0" font-family="-apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle">AI Systems</text>
-
-    <!-- Pill 2 -->
-    <rect x="180" y="0" width="180" height="34" rx="17" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.4" stroke-width="1"/>
-    <circle cx="200" cy="17" r="4" fill="#818CF8"/>
-    <text x="280" y="21" fill="#E2E8F0" font-family="-apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Distributed Systems</text>
-
-    <!-- Pill 3 -->
-    <rect x="380" y="0" width="160" height="34" rx="17" fill="#0F172A" stroke="#C084FC" stroke-opacity="0.4" stroke-width="1"/>
-    <circle cx="400" cy="17" r="4" fill="#C084FC"/>
-    <text x="470" y="21" fill="#E2E8F0" font-family="-apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Full-Stack Architecture</text>
-  </g>
-</svg>
-
-<br/>
-
-<!-- STATUS PILLS -->
-<a href="https://github.com/TheAditronik"><img src="https://img.shields.io/badge/Focus-AI%20Systems%20%26%20Infrastructure-0B0F19?style=for-the-badge&labelColor=0F172A&color=38BDF8" alt="Focus Badge" /></a>
-<a href="https://github.com/TheAditronik"><img src="https://img.shields.io/badge/Education-BS%20Data%20Science%20%40%20IIT%20Madras-0B0F19?style=for-the-badge&labelColor=0F172A&color=818CF8" alt="Education Badge" /></a>
-<a href="https://github.com/TheAditronik"><img src="https://img.shields.io/badge/Research-Microsoft%20Research%20%2F%20HPC-0B0F19?style=for-the-badge&labelColor=0F172A&color=C084FC" alt="Research Badge" /></a>
-
-</div>
-
-<br/>
-
-<!-- SECTION DIVIDER SVG -->
-<svg width="100%" height="24" viewBox="0 0 1000 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 0 12 L 450 12 L 500 22 L 550 12 L 1000 12" stroke="#1E293B" stroke-width="1.5"/>
-  <circle cx="500" cy="22" r="3" fill="#38BDF8"/>
-</svg>
-
-## 01. Professional Profile
-
-I am an **AI Systems Engineer** who bridges machine learning models and high-performance backend systems. My work combines software engineering, research-driven thinking, and product design to transform algorithms into scalable, reliable, production-oriented software.
-
-I focus on **LLM orchestration**, **distributed computing**, **predictive backend services**, and **system architecture**. Whether designing low-latency APIs or researching model evaluation pipelines, I optimize for craftsmanship, performance, and long-term code maintainability.
-
----
-
-## 02. Executive Snapshot
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏛️ Academic & Research Foundations</h3>
-      <ul>
-        <li><b>B.S. in Data Science & Applications</b> — IIT Madras</li>
-        <li><b>Research Exposure</b> — Microsoft Research India</li>
-        <li><b>HPC Lab Exposure</b> — IIT Madras High-Performance Computing Lab</li>
-        <li><b>Founder</b> — IOI Innovation Club</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Technical Identity & Philosophy</h3>
-      <ul>
-        <li><b>Identity:</b> AI Systems Engineer</li>
-        <li><b>Engineering Standard:</b> Simple before complex, reliable before clever.</li>
-        <li><b>Core Priorities:</b> Observability, high throughput, loose coupling.</li>
-        <li><b>Focus:</b> LLM Infrastructure & Scalable Systems.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-## 03. Current Focus & Roadmap
----
-
-<!-- SECTION DIVIDER SVG -->
-<svg width="100%" height="24" viewBox="0 0 1000 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 0 12 L 450 12 L 500 22 L 550 12 L 1000 12" stroke="#1E293B" stroke-width="1.5"/>
-  <circle cx="500" cy="22" r="3" fill="#818CF8"/>
-</svg>
-
-## 04. Featured Flagship Projects
-
-### 01. DeepEnk — AI-Powered Intelligent Decision Platform
-
-> **Category:** AI Infrastructure & Decision Intelligence Platform  
-> **Status:** In Active Production Development
-#### Overview
-DeepEnk is an AI-driven decision platform built to streamline multi-domain analytical workflows, aggregating real-time signals into predictive decision models. It features high-concurrency API orchestrations, automated contextual retrieval, and proactive recommendation pipelines.
-
-#### Engineering Highlights
-* **Multi-Agent Orchestration:** Designed asynchronous LLM reasoning chains to analyze context in real time.
-* **Low-Latency Backend:** Built with FastAPI and Redis caching to handle high-throughput event processing.
-* **Modular Schema:** Implemented a unified PostgreSQL schema tailored for dynamic multi-modal data streams.
-
-#### Tech Stack
-`Python` &bull; `FastAPI` &bull; `PyTorch` &bull; `React` &bull; `Tailwind CSS` &bull; `PostgreSQL` &bull; `Redis` &bull; `Docker`
----
-
-### 02. CYBERNOVA — AI-Powered Cybersecurity Platform
-
-> **Category:** Threat Intelligence & Real-Time Anomaly Detection  
-> **Status:** In Active Production Development
-#### Overview
-CYBERNOVA is an AI cybersecurity platform designed for immediate anomaly identification across log streams and network telemetry. Using fine-tuned transformer models, it converts unstructured security events into actionable threat scores with low false-positive rates.
-
-#### Engineering Highlights
-* **Real-Time Classification:** Fine-tuned transformer models for accurate threat detection across raw log strings.
-* **Event Stream Ingestion:** Engineered an event-driven queue with Redis for rapid ingestion under load.
-* **Interactive Dashboard:** Built a Next.js interface for threat visualization and immediate response workflows.
-
-#### Tech Stack
-`Python` &bull; `FastAPI` &bull; `Transformers` &bull; `PyTorch` &bull; `Next.js` &bull; `TypeScript` &bull; `Redis` &bull; `Docker`
----
-
-<!-- SECTION DIVIDER SVG -->
-<svg width="100%" height="24" viewBox="0 0 1000 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 0 12 L 450 12 L 500 22 L 550 12 L 1000 12" stroke="#1E293B" stroke-width="1.5"/>
-  <circle cx="500" cy="22" r="3" fill="#C084FC"/>
-</svg>
-
-## 05. System Architecture & Research Focus
-
-<div align="center">
-
-<!-- VECTOR SYSTEM ARCHITECTURE DIAGRAM -->
-<svg width="100%" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="900" height="260" rx="12" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
-  
-  <!-- Nodes -->
-  <!-- Layer 1: Client -->
-  <rect x="50" y="105" width="140" height="50" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
-  <text x="120" y="135" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Client Interface</text>
-  
-  <!-- Arrow 1 -->
-  <path d="M 190 130 L 260 130" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <!-- Layer 2: API Gateway -->
-  <rect x="270" y="105" width="160" height="50" rx="8" fill="#0F172A" stroke="#818CF8" stroke-width="1.5"/>
-  <text x="350" y="135" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">API Gateway (FastAPI)</text>
-
-  <!-- Arrow 2 Up & Down -->
-  <path d="M 430 120 L 500 70" stroke="#818CF8" stroke-width="1.5"/>
-  <path d="M 430 140 L 500 190" stroke="#818CF8" stroke-width="1.5"/>
-
-  <!-- Layer 3 Top: AI Engine -->
-  <rect x="510" y="45" width="170" height="50" rx="8" fill="#0F172A" stroke="#C084FC" stroke-width="1.5"/>
-  <text x="595" y="75" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">AI / LLM Pipelines</text>
-
-  <!-- Layer 3 Bottom: Core Database -->
-  <rect x="510" y="165" width="170" height="50" rx="8" fill="#0F172A" stroke="#34D399" stroke-width="1.5"/>
-  <text x="595" y="195" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">PostgreSQL / Redis</text>
-
-  <!-- Arrow 3 to Storage -->
-  <path d="M 680 70 L 740 130" stroke="#C084FC" stroke-width="1.5"/>
-  <path d="M 680 190 L 740 130" stroke="#34D399" stroke-width="1.5"/>
-
-  <!-- Layer 4: Compute Cluster -->
-  <rect x="750" y="105" width="110" height="50" rx="8" fill="#0F172A" stroke="#F43F5E" stroke-width="1.5"/>
-  <text x="805" y="135" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle">GPU Cluster</text>
-</svg>
-
-</div>
-
-### Applied Research Domains
-* **LLM Architecture & Evaluation:** Investigating low-latency inference strategies, dynamic context indexing, and agent orchestration frameworks.
-* **High-Performance Computing:** Parallel execution, memory-optimized routines, and system-level benchmarking.
-* **Distributed Systems:** Reliable consensus strategies, failure recovery models, and scalable caching layers.
-
----
-
-## 06. Technical Skill Stack
-
-<table width="100%">
-  <tr>
-    <td width="22%"><b>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
-      <i>(Learning: Rust, Go)</i>
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI & Machine Learning</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-      <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Transformers"/>
-      <img src="https://img.shields.io/badge/RAG%20Pipelines-38BDF8?style=flat-square" alt="RAG"/>
-      <img src="https://img.shields.io/badge/LLM%20Systems-818CF8?style=flat-square" alt="LLM Systems"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Backend Systems</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
-      <img src="https://img.shields.io/badge/REST%20APIs-020617?style=flat-square" alt="REST APIs"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frontend Engineering</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-      <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Databases & Cloud</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
-    </td>
-  </tr>
-</table>
-
----
-
-## 07. Engineering Timeline
-
-2026 ──────┐ 🛠️  Engineered DeepEnk & CYBERNOVA flagship AI platforms
-│ 🔬  Researching LLM Systems & Distributed Computing Architecture
-│
-2025 ──────┼─ 🎓  Pursuing B.S. in Data Science & Applications @ IIT Madras
-│ 🏛️  Founded IOI Innovation Club (Developer & Systems Community)
-│ 🔬  Gained research exposure @ Microsoft Research India & IIT Madras HPC Lab
-│
-2024 ──────┘ ⚡  Completed BE First Year (CS - AI/ML) & Advanced CS Foundations
-
----
-
-## 08. GitHub Metrics & Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=AdityaVawhal15-maker&show_icons=true&theme=dark&hide_border=true&bg_color=0B0F19&title_color=38BDF8&text_color=9CA3AF&icon_color=818CF8" width="49%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaVawhal15-maker&layout=compact&theme=dark&hide_border=true&bg_color=0B0F19&title_color=38BDF8&text_color=9CA3AF" width="49%" alt="Top Languages" />
-
-</div>
-
----
-
-## 09. Connect & Contact
-
-<div align="center">
-
-<a href="https://github.com/TheAditronik"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="TODO"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="TODO"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-<a href="mailto:TODO"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-
-<br/><br/>
-
-<sub>Crafted with engineering discipline &bull; Built for performance &bull; &copy; 2026 Aditya Vawhal</sub>
-
-</div>
+🚀 Aditya Vawhal
+
+AI Systems Engineer · Researcher · Full-Stack Developer
+
+<!-- ANIMATED 3D HERO BANNER WITH MESH GRADIENT --><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=400&section=header&text=Aditya%20Vawhal&fontSize=100&fontColor=ffffff&animation=fadeIn&desc=AI%20Systems%20Engineer%20%7C%20Researcher%20%7C%20Full-Stack%20Developer&descSize=30&descAlignY=70" width="100%" /> </p>
+<!-- ANIMATED 4D MESH BACKGROUND DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- GLASSMORPHISM HERO INTRODUCTION --><div align="center"> <table border="0" style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(20px); border-radius: 30px; padding: 30px; border: 1px solid rgba(59, 130, 246, 0.3); box-shadow: 0 0 80px rgba(59, 130, 246, 0.1);"> <tr> <td align="center"> <!-- ANIMATED 3D AVATAR --> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3E0d2hmdGx1a3F0Z29yN2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LmNwrBhejkK9EFP504/giphy.gif" width="120" style="border-radius: 50%; border: 3px solid rgba(59, 130, 246, 0.3);" /> <h1 style="background: linear-gradient(135deg, #3B82F6, #8B5CF6, #EC4899, #06B6D4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 48px; margin: 10px 0 5px 0;">Aditya Vawhal</h1> <p style="color: #94a3b8; font-size: 22px; margin: 5px 0 15px 0;"> <span style="color: #3B82F6;">AI Systems Engineer</span> · <span style="color: #8B5CF6;">Researcher</span> · <span style="color: #EC4899;">Full-Stack Developer</span> </p> <p style="color: #64748b; font-size: 18px; max-width: 800px; line-height: 1.8; text-align: center;"> <i>"Building reliable, well-engineered software at the edge of AI and distributed systems. Transforming complex ideas into production-grade intelligent solutions."</i> </p> </td> </tr> </table> </div>
+<!-- ANIMATED 4D MESH BACKGROUND DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- ABOUT SECTION WITH ANIMATED BACKGROUND -->
+👨‍💻 About Me
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 25px; padding: 30px; border: 1px solid rgba(59, 130, 246, 0.15);"> <tr> <td> <p align="center" style="color: #94a3b8; font-size: 18px; max-width: 900px; line-height: 1.8;"> I design and build intelligent software systems that combine <span style="color: #3B82F6; font-weight: bold;">Artificial Intelligence</span>, <span style="color: #8B5CF6; font-weight: bold;">scalable backend engineering</span>, <span style="color: #EC4899; font-weight: bold;">modern frontend development</span>, distributed computing, and practical product design. My work bridges the gap between research and production, transforming complex ideas into usable, high-quality software. </p> </td> </tr> </table> </div><div align="center"> <table> <tr> <td align="center" width="33%" style="background: rgba(59, 130, 246, 0.05); border-radius: 20px; padding: 25px; border: 1px solid rgba(59, 130, 246, 0.15);"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" width="64" /> <br><b style="color: #3B82F6; font-size: 18px;">AI & ML</b> <br><sub style="color: #94a3b8; font-size: 14px;">LLMs · Deep Learning · RAG</sub> </td> <td align="center" width="33%" style="background: rgba(139, 92, 246, 0.05); border-radius: 20px; padding: 25px; border: 1px solid rgba(139, 92, 246, 0.15);"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" width="64" /> <br><b style="color: #8B5CF6; font-size: 18px;">Full-Stack</b> <br><sub style="color: #94a3b8; font-size: 14px;">React · Next.js · FastAPI</sub> </td> <td align="center" width="33%" style="background: rgba(236, 72, 153, 0.05); border-radius: 20px; padding: 25px; border: 1px solid rgba(236, 72, 153, 0.15);"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg" width="64" /> <br><b style="color: #EC4899; font-size: 18px;">Systems</b> <br><sub style="color: #94a3b8; font-size: 14px;">Distributed · Scalable · Cloud</sub> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER WITH 4D EFFECT --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- CURRENT FOCUS WITH GLASS BACKGROUND -->
+🎯 Current Focus
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 25px; border: 1px solid rgba(59, 130, 246, 0.15); padding: 20px; width: 90%;"> <tr> <td align="center" width="25%" style="padding: 20px; background: rgba(59, 130, 246, 0.05); border-radius: 15px; border: 1px solid rgba(59, 130, 246, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3E0d2hmdGx1a3F0Z29yN2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LmNwrBhejkK9EFP504/giphy.gif" width="60" /> <br><b style="color: #3B82F6; font-size: 18px;">🔨 Building</b> <br><sub style="color: #94a3b8; font-size: 14px;">DeepEnk · CYBERNOVA</sub> </td> <td align="center" width="25%" style="padding: 20px; background: rgba(139, 92, 246, 0.05); border-radius: 15px; border: 1px solid rgba(139, 92, 246, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDFhZ2J5dWp5b3I0b2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q7SKqn3G97xpmfMPv8/giphy.gif" width="60" /> <br><b style="color: #8B5CF6; font-size: 18px;">🧪 Researching</b> <br><sub style="color: #94a3b8; font-size: 14px;">LLMs · Distributed Systems</sub> </td> <td align="center" width="25%" style="padding: 20px; background: rgba(236, 72, 153, 0.05); border-radius: 15px; border: 1px solid rgba(236, 72, 153, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGFxM2h1d2p5cXlqY2s1dGx1a3JxY3p1b3I1b2l0cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZVik7pBtu9dNS/giphy.gif" width="60" /> <br><b style="color: #EC4899; font-size: 18px;">📚 Learning</b> <br><sub style="color: #94a3b8; font-size: 14px;">Rust · Go · Kubernetes</sub> </td> <td align="center" width="25%" style="padding: 20px; background: rgba(6, 182, 212, 0.05); border-radius: 15px; border: 1px solid rgba(6, 182, 212, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGFxM2h1d2p5cXlqY2s1dGx1a3JxY3p1b3I1b2l0cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZVik7pBtu9dNS/giphy.gif" width="60" /> <br><b style="color: #06B6D4; font-size: 18px;">🤝 Open Source</b> <br><sub style="color: #94a3b8; font-size: 14px;">Contributions · Collaboration</sub> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- DEEPENK - FEATURED PROJECT #1 WITH PREMIUM GLASS CARD -->
+🚀 Featured Project #1
+
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=150&section=header&text=DeepEnk&fontSize=60&fontColor=ffffff&desc=AI-Powered%20Intelligent%20Decision%20Platform&descSize=25&descAlignY=75" width="100%" /> </p><div align="center"> <table style="background: rgba(10, 14, 23, 0.9); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.25); box-shadow: 0 0 100px rgba(59, 130, 246, 0.05); padding: 30px; width: 95%;"> <tr> <td colspan="2" align="center" style="padding: 20px;"> <!-- DEEPENK BANNER WITH ANIMATED GLOW --> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=250&section=header&text=DeepEnk%20%E2%9A%A1&fontSize=70&fontColor=ffffff&desc=Intelligent%20Decision%20Platform&descSize=25&descAlignY=80" width="100%" /> </td> </tr> <tr> <td width="50%" valign="top" style="padding: 30px;"> <h3 style="color: #3B82F6; font-size: 26px;">🎯 The Problem</h3> <p style="color: #94a3b8; font-size: 16px; line-height: 1.8;"> Organizations struggle to make data-driven decisions quickly and accurately due to fragmented information and lack of intelligent analysis capabilities. </p> <br> <h3 style="color: #3B82F6; font-size: 26px;">💡 The Solution</h3> <p style="color: #94a3b8; font-size: 16px; line-height: 1.8;"> DeepEnk is an AI-powered platform that integrates diverse data sources, applies advanced analytics, and delivers actionable insights through an intuitive interface. Built with a focus on reliability, scalability, and real-time intelligence. </p> <br> <h3 style="color: #3B82F6; font-size: 26px;">⚡ Engineering Highlights</h3> <ul style="color: #94a3b8; font-size: 15px; line-height: 2;"> <li><span style="color: #3B82F6;">▸</span> Real-time data processing pipeline</li> <li><span style="color: #3B82F6;">▸</span> Advanced LLM integration for natural language insights</li> <li><span style="color: #3B82F6;">▸</span> Scalable microservices architecture</li> <li><span style="color: #3B82F6;">▸</span> Production-grade security and monitoring</li> <li><span style="color: #3B82F6;">▸</span> Optimized for high-throughput decision making</li> </ul> </td> <td width="50%" valign="top" style="padding: 30px;"> <h3 style="color: #3B82F6; font-size: 26px;">🛠️ Tech Stack</h3> <p> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <br> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" /> <br> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" /> </p> <br> <h3 style="color: #3B82F6; font-size: 26px;">📊 System Architecture</h3> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=200&section=header&text=DeepEnk%20Architecture&fontSize=30&fontColor=ffffff" width="100%" /> <br><br> <p align="center"> <a href="#"><img src="https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/🌐_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a> </p> <p align="center"> <img src="https://img.shields.io/badge/🟢_Status-In_Development-22C55E?style=for-the-badge" /> <img src="https://img.shields.io/badge/⭐_Version-1.0.0-3B82F6?style=for-the-badge" /> </p> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- CYBERNOVA - FEATURED PROJECT #2 WITH PREMIUM GLASS CARD -->
+🚀 Featured Project #2
+
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=150&section=header&text=CYBERNOVA&fontSize=60&fontColor=ffffff&desc=AI-Powered%20Next-Generation%20Cybersecurity&descSize=25&descAlignY=75" width="100%" /> </p><div align="center"> <table style="background: rgba(10, 14, 23, 0.9); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(139, 92, 246, 0.25); box-shadow: 0 0 100px rgba(139, 92, 246, 0.05); padding: 30px; width: 95%;"> <tr> <td colspan="2" align="center" style="padding: 20px;"> <!-- CYBERNOVA BANNER WITH ANIMATED GLOW --> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=250&section=header&text=CYBERNOVA%20%E2%9A%A1&fontSize=70&fontColor=ffffff&desc=AI%20Cybersecurity%20Platform&descSize=25&descAlignY=80" width="100%" /> </td> </tr> <tr> <td width="50%" valign="top" style="padding: 30px;"> <h3 style="color: #8B5CF6; font-size: 26px;">🎯 The Problem</h3> <p style="color: #94a3b8; font-size: 16px; line-height: 1.8;"> Traditional cybersecurity solutions struggle to keep pace with evolving threats and rely on reactive defense mechanisms, leaving modern infrastructure vulnerable. </p> <br> <h3 style="color: #8B5CF6; font-size: 26px;">💡 The Solution</h3> <p style="color: #94a3b8; font-size: 16px; line-height: 1.8;"> CYBERNOVA leverages advanced AI to detect, analyze, and respond to security threats in real-time, providing proactive protection for modern infrastructure. Built with a focus on zero-day threat detection and automated response. </p> <br> <h3 style="color: #8B5CF6; font-size: 26px;">⚡ Engineering Highlights</h3> <ul style="color: #94a3b8; font-size: 15px; line-height: 2;"> <li><span style="color: #8B5CF6;">▸</span> Real-time threat detection using deep learning</li> <li><span style="color: #8B5CF6;">▸</span> Anomaly detection with unsupervised learning</li> <li><span style="color: #8B5CF6;">▸</span> Automated incident response system</li> <li><span style="color: #8B5CF6;">▸</span> Scalable data processing pipeline</li> <li><span style="color: #8B5CF6;">▸</span> Advanced encryption and zero-trust architecture</li> </ul> </td> <td width="50%" valign="top" style="padding: 30px;"> <h3 style="color: #8B5CF6; font-size: 26px;">🛠️ Tech Stack</h3> <p> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <br> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <br> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" /> <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" /> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" /> </p> <br> <h3 style="color: #8B5CF6; font-size: 26px;">📊 System Architecture</h3> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=200&section=header&text=CYBERNOVA%20Architecture&fontSize=30&fontColor=ffffff" width="100%" /> <br><br> <p align="center"> <a href="#"><img src="https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/🌐_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a> </p> <p align="center"> <img src="https://img.shields.io/badge/🟢_Status-In_Development-22C55E?style=for-the-badge" /> <img src="https://img.shields.io/badge/⭐_Version-1.0.0-8B5CF6?style=for-the-badge" /> </p> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- RESEARCH SECTION WITH NEURAL NETWORK BACKGROUND -->
+🔬 Research & Innovation
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 25px; border: 1px solid rgba(59, 130, 246, 0.15); padding: 30px; width: 95%;"> <tr> <td valign="top" width="33%" style="padding: 20px; background: rgba(59, 130, 246, 0.03); border-radius: 15px; border: 1px solid rgba(59, 130, 246, 0.1);"> <h3 style="color: #3B82F6; font-size: 24px;">🔭 Research Focus</h3> <ul style="color: #94a3b8; font-size: 16px; line-height: 2.5;"> <li><b style="color: #3B82F6;">Large Language Models</b><br><sub style="color: #64748b;">Optimization & Architecture</sub></li> <li><b style="color: #8B5CF6;">Distributed AI Systems</b><br><sub style="color: #64748b;">Scalable Training & Inference</sub></li> <li><b style="color: #EC4899;">GPU Computing</b><br><sub style="color: #64748b;">Performance Engineering</sub></li> <li><b style="color: #06B6D4;">AI Infrastructure</b><br><sub style="color: #64748b;">MLOps & Model Deployment</sub></li> </ul> </td> <td valign="top" width="33%" style="padding: 20px; background: rgba(139, 92, 246, 0.03); border-radius: 15px; border: 1px solid rgba(139, 92, 246, 0.1);"> <h3 style="color: #8B5CF6; font-size: 24px;">🏢 Research Experience</h3> <ul style="color: #94a3b8; font-size: 16px; line-height: 2.5;"> <li><b style="color: #8B5CF6;">🔬 Microsoft Research India</b><br><sub style="color: #64748b;">AI Research & Systems</sub></li> <li><b style="color: #EC4899;">🧪 IIT Madras HPC Lab</b><br><sub style="color: #64748b;">High Performance Computing</sub></li> <li><b style="color: #06B6D4;">🎓 B.E. Computer Science</b><br><sub style="color: #64748b;">AI & ML Specialization</sub></li> <li><b style="color: #3B82F6;">📊 IIT Madras</b><br><sub style="color: #64748b;">Data Science & Applications</sub></li> </ul> </td> <td valign="top" width="33%" style="padding: 20px; background: rgba(236, 72, 153, 0.03); border-radius: 15px; border: 1px solid rgba(236, 72, 153, 0.1);"> <h3 style="color: #EC4899; font-size: 24px;">📈 Research Goals</h3> <ul style="color: #94a3b8; font-size: 16px; line-height: 2.5;"> <li><b style="color: #3B82F6;">2024</b><br><sub style="color: #64748b;">AI Systems Research</sub></li> <li><b style="color: #8B5CF6;">2025</b><br><sub style="color: #64748b;">Distributed AI Research</sub></li> <li><b style="color: #EC4899;">2026</b><br><sub style="color: #64748b;">AI Infrastructure Research</sub></li> <li><b style="color: #06B6D4;">Future</b><br><sub style="color: #64748b;">Research Publications</sub></li> </ul> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- TECH STACK WITH GLASS CARDS -->
+⚡ Technical Arsenal
+
+<div align="center" style="background: rgba(10, 14, 23, 0.6); backdrop-filter: blur(20px); border-radius: 25px; border: 1px solid rgba(59, 130, 246, 0.1); padding: 30px; width: 95%;">
+🖥️ Core Languages
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Java-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CPP.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Rust.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/GoLang.svg" width="64" /> </p>
+🎨 Frontend
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" width="64" /> </p>
+⚙️ Backend & AI
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ExpressJS-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/FastAPI.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PyTorch-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TensorFlow-Dark.svg" width="64" /> </p>
+🗄️ Databases & Cloud
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redis-Dark.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Docker.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Kubernetes.svg" width="64" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg" width="64" /> </p></div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- GITHUB ANALYTICS -->
+📊 GitHub Analytics
+
+<div align="center"> <table> <tr> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 20px; border: 1px solid rgba(59, 130, 246, 0.15);"> <img src="https://github-readme-stats.vercel.app/api?username=AdityaVawhal15-maker&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0a0e17&title_color=3B82F6&icon_color=8B5CF6&text_color=ffffff&custom_title=Aditya's%20GitHub%20Stats" width="100%" /> </td> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 20px; border: 1px solid rgba(139, 92, 246, 0.15);"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaVawhal15-maker&layout=compact&theme=radical&hide_border=true&bg_color=0a0e17&title_color=3B82F6&text_color=ffffff&custom_title=Top%20Languages" width="100%" /> </td> </tr> </table> </div><div align="center"> <table> <tr> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 20px; border: 1px solid rgba(236, 72, 153, 0.15);"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaVawhal15-maker&theme=radical&hide_border=true&background=0a0e17&stroke=3B82F6&ring=3B82F6&fire=8B5CF6&currStreakNum=ffffff&sideNums=3B82F6&currStreakLabel=3B82F6&sideLabels=3B82F6&dates=ffffff" width="100%" /> </td> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 20px; border: 1px solid rgba(6, 182, 212, 0.15);"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaVawhal15-maker&custom_title=Aditya's%20Contribution%20Graph&theme=react-dark&bg_color=0a0e17&hide_border=true&line=3B82F6&point=8B5CF6&color=ffffff" width="100%" /> </td> </tr> </table> </div><div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=AdityaVawhal15-maker&theme=radical&no-frame=true&no-bg=true&row=1&column=6&margin-w=15&margin-h=15" width="100%" /> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- PROFESSIONAL TIMELINE -->
+📈 Professional Timeline
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 25px; border: 1px solid rgba(59, 130, 246, 0.15); padding: 20px; width: 95%;"> <tr> <td align="center" width="20%" style="background: rgba(59, 130, 246, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(59, 130, 246, 0.1);"> <b style="color: #3B82F6; font-size: 18px;">🎓 2024</b> <br><sub style="color: #94a3b8; font-size: 14px;">B.E. Computer Science<br>AI & ML Specialization</sub> </td> <td align="center" width="5%"> <b style="color: #3B82F6; font-size: 24px;">➡️</b> </td> <td align="center" width="20%" style="background: rgba(139, 92, 246, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(139, 92, 246, 0.1);"> <b style="color: #8B5CF6; font-size: 18px;">🎓 2024</b> <br><sub style="color: #94a3b8; font-size: 14px;">IIT Madras<br>Data Science & Applications</sub> </td> <td align="center" width="5%"> <b style="color: #8B5CF6; font-size: 24px;">➡️</b> </td> <td align="center" width="20%" style="background: rgba(236, 72, 153, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(236, 72, 153, 0.1);"> <b style="color: #EC4899; font-size: 18px;">🔬 2024</b> <br><sub style="color: #94a3b8; font-size: 14px;">Microsoft Research India<br>AI Research Exposure</sub> </td> </tr> <tr> <td align="center" width="20%" style="background: rgba(6, 182, 212, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(6, 182, 212, 0.1);"> <b style="color: #06B6D4; font-size: 18px;">🧪 2024</b> <br><sub style="color: #94a3b8; font-size: 14px;">IIT Madras HPC Lab<br>Research Exposure</sub> </td> <td align="center" width="5%"> <b style="color: #06B6D4; font-size: 24px;">➡️</b> </td> <td align="center" width="20%" style="background: rgba(251, 191, 36, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(251, 191, 36, 0.1);"> <b style="color: #FBBF24; font-size: 18px;">🚀 2024</b> <br><sub style="color: #94a3b8; font-size: 14px;">IOI Innovation Club<br>Founder & Lead</sub> </td> <td align="center" width="5%"> <b style="color: #FBBF24; font-size: 24px;">➡️</b> </td> <td align="center" width="20%" style="background: rgba(34, 197, 94, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(34, 197, 94, 0.1);"> <b style="color: #22C55E; font-size: 18px;">🔨 2024</b> <br><sub style="color: #94a3b8; font-size: 14px;">DeepEnk & CYBERNOVA<br>AI Systems Development</sub> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- ENGINEERING PHILOSOPHY -->
+🎯 Engineering Philosophy
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 25px; border: 1px solid rgba(59, 130, 246, 0.15); padding: 20px; width: 95%;"> <tr> <td width="25%" align="center" style="background: rgba(59, 130, 246, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(59, 130, 246, 0.1);"> <img src="https://img.icons8.com/color/48/000000/simple.png" /> <br><b style="color: #3B82F6; font-size: 18px;">Simple</b> <br><sub style="color: #94a3b8;">before complex</sub> </td> <td width="25%" align="center" style="background: rgba(139, 92, 246, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(139, 92, 246, 0.1);"> <img src="https://img.icons8.com/color/48/000000/reliable.png" /> <br><b style="color: #8B5CF6; font-size: 18px;">Reliable</b> <br><sub style="color: #94a3b8;">before clever</sub> </td> <td width="25%" align="center" style="background: rgba(236, 72, 153, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(236, 72, 153, 0.1);"> <img src="https://img.icons8.com/color/48/000000/maintenance.png" /> <br><b style="color: #EC4899; font-size: 18px;">Maintainable</b> <br><sub style="color: #94a3b8;">before rushed</sub> </td> <td width="25%" align="center" style="background: rgba(6, 182, 212, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(6, 182, 212, 0.1);"> <img src="https://img.icons8.com/color/48/000000/read.png" /> <br><b style="color: #06B6D4; font-size: 18px;">Readable</b> <br><sub style="color: #94a3b8;">before optimized</sub> </td> </tr> <tr> <td width="25%" align="center" style="background: rgba(34, 197, 94, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(34, 197, 94, 0.1);"> <img src="https://img.icons8.com/color/48/000000/scale.png" /> <br><b style="color: #22C55E; font-size: 18px;">Scalable</b> <br><sub style="color: #94a3b8;">before reactive</sub> </td> <td width="25%" align="center" style="background: rgba(251, 191, 36, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(251, 191, 36, 0.1);"> <img src="https://img.icons8.com/color/48/000000/document.png" /> <br><b style="color: #FBBF24; font-size: 18px;">Documented</b> <br><sub style="color: #94a3b8;">always</sub> </td> <td width="25%" align="center" style="background: rgba(244, 63, 94, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(244, 63, 94, 0.1);"> <img src="https://img.icons8.com/color/48/000000/test-passed.png" /> <br><b style="color: #F43F5E; font-size: 18px;">Testable</b> <br><sub style="color: #94a3b8;">by design</sub> </td> <td width="25%" align="center" style="background: rgba(168, 85, 247, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(168, 85, 247, 0.1);"> <img src="https://img.icons8.com/color/48/000000/architecture.png" /> <br><b style="color: #A855F7; font-size: 18px;">Long-term</b> <br><sub style="color: #94a3b8;">architecture first</sub> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- LEARNING ROADMAP -->
+📚 Learning Roadmap
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 25px; border: 1px solid rgba(59, 130, 246, 0.15); padding: 20px; width: 95%;"> <tr> <td align="center" width="33%" style="background: rgba(59, 130, 246, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(59, 130, 246, 0.1);"> <h3 style="color: #3B82F6; font-size: 24px;">🔴 Current</h3> <ul style="color: #94a3b8; font-size: 16px; line-height: 2.5; text-align: left;"> <li>Rust Programming</li> <li>Go Language</li> <li>Kubernetes</li> <li>GPU Computing</li> <li>Distributed Systems</li> </ul> </td> <td align="center" width="33%" style="background: rgba(139, 92, 246, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(139, 92, 246, 0.1);"> <h3 style="color: #8B5CF6; font-size: 24px;">🟡 Next</h3> <ul style="color: #94a3b8; font-size: 16px; line-height: 2.5; text-align: left;"> <li>System Design</li> <li>MLOps</li> <li>Cloud Engineering</li> <li>AI Infrastructure</li> <li>Performance Engineering</li> </ul> </td> <td align="center" width="33%" style="background: rgba(34, 197, 94, 0.05); border-radius: 15px; padding: 20px; border: 1px solid rgba(34, 197, 94, 0.1);"> <h3 style="color: #22C55E; font-size: 24px;">🟢 Future</h3> <ul style="color: #94a3b8; font-size: 16px; line-height: 2.5; text-align: left;"> <li>Research Publications</li> <li>Open Source Leadership</li> <li>AI Product Development</li> <li>Distributed AI Systems</li> <li>Engineering Leadership</li> </ul> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- ACHIEVEMENTS -->
+🌟 Achievements
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 25px; border: 1px solid rgba(59, 130, 246, 0.15); padding: 20px; width: 95%;"> <tr> <td align="center" width="33%" style="background: rgba(59, 130, 246, 0.05); border-radius: 15px; padding: 25px; border: 1px solid rgba(59, 130, 246, 0.1);"> <img src="https://img.icons8.com/color/64/000000/research.png" /> <br><b style="color: #3B82F6; font-size: 20px;">Research Excellence</b> <br><sub style="color: #94a3b8; font-size: 14px;">Microsoft Research India</sub> <br><sub style="color: #94a3b8; font-size: 14px;">IIT Madras HPC Lab</sub> </td> <td align="center" width="33%" style="background: rgba(139, 92, 246, 0.05); border-radius: 15px; padding: 25px; border: 1px solid rgba(139, 92, 246, 0.1);"> <img src="https://img.icons8.com/color/64/000000/leadership.png" /> <br><b style="color: #8B5CF6; font-size: 20px;">Leadership</b> <br><sub style="color: #94a3b8; font-size: 14px;">Founder - IOI Innovation Club</sub> <br><sub style="color: #94a3b8; font-size: 14px;">Developer Community Lead</sub> </td> <td align="center" width="33%" style="background: rgba(236, 72, 153, 0.05); border-radius: 15px; padding: 25px; border: 1px solid rgba(236, 72, 153, 0.1);"> <img src="https://img.icons8.com/color/64/000000/education.png" /> <br><b style="color: #EC4899; font-size: 20px;">Academic Excellence</b> <br><sub style="color: #94a3b8; font-size: 14px;">B.E. Computer Science</sub> <br><sub style="color: #94a3b8; font-size: 14px;">IIT Madras Data Science</sub> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- CONNECT SECTION -->
+💬 Connect With Me
+
+<div align="center"> <a href="https://github.com/AdityaVawhal15-maker"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://linkedin.com/in/adityavawhal"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="mailto:adityavawhal15@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Website-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white" /> </a> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- VISITOR COUNTER -->
+🏆 Visitor Counter
+
+<div align="center"> <img src="https://komarev.com/ghpvc/?username=AdityaVawhal15-maker&color=3B82F6&style=for-the-badge" /> <br><br> <img src="https://img.shields.io/github/followers/AdityaVawhal15-maker?label=Followers&style=for-the-badge&color=8B5CF6&labelColor=0a0e17" /> <img src="https://img.shields.io/github/stars/AdityaVawhal15-maker?label=Stars&style=for-the-badge&color=EC4899&labelColor=0a0e17" /> </div>
+<!-- ANIMATED DIVIDER --><p align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> </p>
+<!-- FINAL THOUGHT -->
+💭 Final Thought
+
+<div align="center"> <blockquote style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(20px); border-radius: 20px; padding: 30px; border-left: 5px solid #3B82F6; max-width: 900px;"> <p style="color: #94a3b8; font-size: 20px; line-height: 1.8; font-style: italic;"> "Build software that positively impacts millions of people through intelligent engineering. Create systems that are scalable, maintainable, and reliable. Contribute to open-source software. Publish meaningful research. Build products that solve real-world problems. Continuously improve as an engineer." </p> </blockquote> </div>
+<!-- SNAKE ANIMATION --><div align="center"> <img src="https://raw.githubusercontent.com/AdityaVawhal15-maker/AdityaVawhal15-maker/output/snake.svg" alt="Snake animation" /> </div>
+<!-- FOOTER --><div align="center"> <sub><b style="color: #3B82F6; font-size: 16px;">Built with ❤️ by Aditya Vawhal</b></sub> <br> <sub><b style="color: #8B5CF6; font-size: 14px;">© 2024 · AI Systems Engineer</b></sub> <br> <sub><i style="color: #EC4899; font-size: 14px;">Top 1% Tech Professional</i></sub> </div>
+<!-- ANIMATED WAVE FOOTER --><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=150&section=footer" width="100%" /> </p>
+no man see I told you what i want then also you are doing that I want more animations transition you are just using same animations transition I want some new premium and also background not empty something in background some design animation transition and also good section and also no broken images and in some section you provide images size as too big pls fix it okay not big images and also image size small in section of project and also use transition more animation more and also make the elite okay
+🚀 Aditya Vawhal
+
+AI Systems Engineer · Researcher · Full-Stack Developer
+
+<!-- ANIMATED 4D MESH BACKGROUND + FLOATING PARTICLES --><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,14,18,20,24,26,28,30,32&height=400&section=header&text=Aditya%20Vawhal&fontSize=100&fontColor=ffffff&animation=fadeIn&desc=AI%20Systems%20Engineer%20%7C%20Researcher%20%7C%20Full-Stack%20Developer&descSize=30&descAlignY=70" width="100%" /> </p>
+<!-- 4D ANIMATED DIVIDER WITH PARTICLES --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- GLASS CARD WITH ANIMATED GRADIENT BORDER --><div align="center"> <table border="0" style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(30px); border-radius: 35px; padding: 35px; border: 2px solid transparent; background-image: linear-gradient(rgba(10,14,23,0.85), rgba(10,14,23,0.85)), linear-gradient(135deg, #3B82F6, #8B5CF6, #EC4899, #06B6D4, #3B82F6); background-origin: border-box; background-clip: padding-box, border-box;"> <tr> <td align="center"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3E0d2hmdGx1a3F0Z29yN2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LmNwrBhejkK9EFP504/giphy.gif" width="100" style="border-radius: 50%; border: 3px solid rgba(59, 130, 246, 0.4);" /> <h1 style="background: linear-gradient(135deg, #3B82F6, #8B5CF6, #EC4899, #06B6D4, #3B82F6); background-size: 300% 300%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 48px; margin: 10px 0 5px 0; animation: gradient 4s ease infinite;">Aditya Vawhal</h1> <p style="color: #94a3b8; font-size: 22px; margin: 5px 0 15px 0;"> <span style="color: #3B82F6;">✧ AI Systems Engineer</span> · <span style="color: #8B5CF6;">✧ Researcher</span> · <span style="color: #EC4899;">✧ Full-Stack Developer</span> </p> <p style="color: #64748b; font-size: 18px; max-width: 800px; line-height: 1.8; text-align: center;"> <i>"Building reliable, well-engineered software at the edge of AI and distributed systems. Transforming complex ideas into production-grade intelligent solutions."</i> </p> <br> <!-- ANIMATED CTA BUTTONS --> <a href="#"><img src="https://img.shields.io/badge/📂_Explore_Projects-3B82F6?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/📄_View_Resume-8B5CF6?style=for-the-badge&logo=googledrive&logoColor=white" /></a> </td> </tr> </table> </div>
+<!-- ANIMATED GLOW DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- ABOUT SECTION WITH 3D HOLOGRAPHIC BACKGROUND -->
+👨‍💻 About Me
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.8); backdrop-filter: blur(25px); border-radius: 30px; padding: 30px; border: 1px solid rgba(59, 130, 246, 0.2); box-shadow: 0 0 100px rgba(59, 130, 246, 0.05);"> <tr> <td> <p align="center" style="color: #cbd5e1; font-size: 18px; max-width: 900px; line-height: 2;"> I design and build intelligent software systems that combine <span style="color: #3B82F6; font-weight: bold; text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);">✦ Artificial Intelligence</span>, <span style="color: #8B5CF6; font-weight: bold; text-shadow: 0 0 20px rgba(139, 92, 246, 0.3);">✦ scalable backend engineering</span>, <span style="color: #EC4899; font-weight: bold; text-shadow: 0 0 20px rgba(236, 72, 153, 0.3);">✦ modern frontend development</span>, distributed computing, and practical product design. My work bridges the gap between research and production, transforming complex ideas into usable, high-quality software. </p> </td> </tr> </table> </div>
+<!-- 3D SKILL CARDS WITH ROTATING GLOW --><div align="center"> <table> <tr> <td align="center" width="33%" style="background: rgba(59, 130, 246, 0.05); border-radius: 25px; padding: 25px; border: 1px solid rgba(59, 130, 246, 0.2); box-shadow: 0 0 50px rgba(59, 130, 246, 0.05);"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" width="56" /> <br><b style="color: #3B82F6; font-size: 18px;">AI & Machine Learning</b> <br><sub style="color: #94a3b8; font-size: 14px;">LLMs · Deep Learning · RAG · Transformers</sub> </td> <td align="center" width="33%" style="background: rgba(139, 92, 246, 0.05); border-radius: 25px; padding: 25px; border: 1px solid rgba(139, 92, 246, 0.2); box-shadow: 0 0 50px rgba(139, 92, 246, 0.05);"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" width="56" /> <br><b style="color: #8B5CF6; font-size: 18px;">Full-Stack Development</b> <br><sub style="color: #94a3b8; font-size: 14px;">React · Next.js · FastAPI · Node.js</sub> </td> <td align="center" width="33%" style="background: rgba(236, 72, 153, 0.05); border-radius: 25px; padding: 25px; border: 1px solid rgba(236, 72, 153, 0.2); box-shadow: 0 0 50px rgba(236, 72, 153, 0.05);"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg" width="56" /> <br><b style="color: #EC4899; font-size: 18px;">Systems Engineering</b> <br><sub style="color: #94a3b8; font-size: 14px;">Distributed · Cloud · Scalable · DevOps</sub> </td> </tr> </table> </div>
+<!-- 4D ANIMATED DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- CURRENT FOCUS WITH NEURAL NETWORK BACKGROUND -->
+🎯 Current Focus
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.15); box-shadow: 0 0 80px rgba(59, 130, 246, 0.03); padding: 15px; width: 95%;"> <tr> <td align="center" width="25%" style="padding: 15px; background: rgba(59, 130, 246, 0.05); border-radius: 20px; border: 1px solid rgba(59, 130, 246, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3E0d2hmdGx1a3F0Z29yN2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LmNwrBhejkK9EFP504/giphy.gif" width="50" /> <br><b style="color: #3B82F6; font-size: 16px;">🔨 Building</b> <br><sub style="color: #94a3b8; font-size: 13px;">DeepEnk · CYBERNOVA</sub> </td> <td align="center" width="25%" style="padding: 15px; background: rgba(139, 92, 246, 0.05); border-radius: 20px; border: 1px solid rgba(139, 92, 246, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDFhZ2J5dWp5b3I0b2l0Y2w2cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q7SKqn3G97xpmfMPv8/giphy.gif" width="50" /> <br><b style="color: #8B5CF6; font-size: 16px;">🧪 Researching</b> <br><sub style="color: #94a3b8; font-size: 13px;">LLMs · Distributed Systems</sub> </td> <td align="center" width="25%" style="padding: 15px; background: rgba(236, 72, 153, 0.05); border-radius: 20px; border: 1px solid rgba(236, 72, 153, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGFxM2h1d2p5cXlqY2s1dGx1a3JxY3p1b3I1b2l0cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZVik7pBtu9dNS/giphy.gif" width="50" /> <br><b style="color: #EC4899; font-size: 16px;">📚 Learning</b> <br><sub style="color: #94a3b8; font-size: 13px;">Rust · Go · Kubernetes</sub> </td> <td align="center" width="25%" style="padding: 15px; background: rgba(6, 182, 212, 0.05); border-radius: 20px; border: 1px solid rgba(6, 182, 212, 0.1);"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGFxM2h1d2p5cXlqY2s1dGx1a3JxY3p1b3I1b2l0cGJ0Y2lwZ2Z2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ZVik7pBtu9dNS/giphy.gif" width="50" /> <br><b style="color: #06B6D4; font-size: 16px;">🤝 Open Source</b> <br><sub style="color: #94a3b8; font-size: 13px;">Contributions · Collaboration</sub> </td> </tr> </table> </div>
+<!-- 3D WAVE DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- DEEPENK - FEATURED PROJECT WITH 3D GLASS CARD -->
+🚀 Featured Project #1
+
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=120&section=header&text=DeepEnk&fontSize=50&fontColor=ffffff&desc=AI-Powered%20Intelligent%20Decision%20Platform&descSize=20&descAlignY=70" width="100%" /> </p><div align="center"> <table style="background: rgba(10, 14, 23, 0.9); backdrop-filter: blur(30px); border-radius: 35px; border: 1px solid rgba(59, 130, 246, 0.25); box-shadow: 0 0 120px rgba(59, 130, 246, 0.05); padding: 25px; width: 95%;"> <tr> <td colspan="2" align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=180&section=header&text=⚡%20DeepEnk%20Platform&fontSize=45&fontColor=ffffff&desc=Intelligent%20Decision%20Making&descSize=18&descAlignY=75" width="100%" style="border-radius: 20px;" /> </td> </tr> <tr> <td width="55%" valign="top" style="padding: 20px;"> <h3 style="color: #3B82F6; font-size: 22px;">🎯 The Problem</h3> <p style="color: #94a3b8; font-size: 15px; line-height: 1.8;"> Organizations struggle to make data-driven decisions quickly and accurately due to fragmented information and lack of intelligent analysis capabilities. </p> <br> <h3 style="color: #3B82F6; font-size: 22px;">💡 The Solution</h3> <p style="color: #94a3b8; font-size: 15px; line-height: 1.8;"> DeepEnk is an AI-powered platform that integrates diverse data sources, applies advanced analytics, and delivers actionable insights through an intuitive interface. </p> <br> <h3 style="color: #3B82F6; font-size: 22px;">⚡ Engineering Highlights</h3> <ul style="color: #94a3b8; font-size: 14px; line-height: 2.2;"> <li>✦ Real-time data processing pipeline</li> <li>✦ Advanced LLM integration for natural language insights</li> <li>✦ Scalable microservices architecture</li> <li>✦ Production-grade security and monitoring</li> </ul> </td> <td width="45%" valign="top" style="padding: 20px;"> <h3 style="color: #3B82F6; font-size: 22px;">🛠️ Tech Stack</h3> <p> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <br> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <br> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" /> </p> <br> <h3 style="color: #3B82F6; font-size: 22px;">📊 Architecture</h3> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=120&section=header&text=DeepEnk%20Flow&fontSize=20&fontColor=ffffff" width="100%" /> <br><br> <p align="center"> <a href="#"><img src="https://img.shields.io/badge/🔗_Repository-181717?style=flat-square&logo=github&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/🌐_Demo-000000?style=flat-square&logo=vercel&logoColor=white" /></a> </p> <p align="center"> <img src="https://img.shields.io/badge/🟢_In_Development-22C55E?style=flat-square" /> </p> </td> </tr> </table> </div>
+<!-- 4D GLOW DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- CYBERNOVA - FEATURED PROJECT WITH HOLOGRAPHIC CARD -->
+🚀 Featured Project #2
+
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=120&section=header&text=CYBERNOVA&fontSize=50&fontColor=ffffff&desc=AI-Powered%20Next-Generation%20Cybersecurity&descSize=20&descAlignY=70" width="100%" /> </p><div align="center"> <table style="background: rgba(10, 14, 23, 0.9); backdrop-filter: blur(30px); border-radius: 35px; border: 1px solid rgba(139, 92, 246, 0.25); box-shadow: 0 0 120px rgba(139, 92, 246, 0.05); padding: 25px; width: 95%;"> <tr> <td colspan="2" align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=180&section=header&text=🛡️%20CYBERNOVA%20Security&fontSize=45&fontColor=ffffff&desc=AI%20Cybersecurity%20Platform&descSize=18&descAlignY=75" width="100%" style="border-radius: 20px;" /> </td> </tr> <tr> <td width="55%" valign="top" style="padding: 20px;"> <h3 style="color: #8B5CF6; font-size: 22px;">🎯 The Problem</h3> <p style="color: #94a3b8; font-size: 15px; line-height: 1.8;"> Traditional cybersecurity solutions struggle to keep pace with evolving threats and rely on reactive defense mechanisms, leaving modern infrastructure vulnerable. </p> <br> <h3 style="color: #8B5CF6; font-size: 22px;">💡 The Solution</h3> <p style="color: #94a3b8; font-size: 15px; line-height: 1.8;"> CYBERNOVA leverages advanced AI to detect, analyze, and respond to security threats in real-time, providing proactive protection for modern infrastructure. </p> <br> <h3 style="color: #8B5CF6; font-size: 22px;">⚡ Engineering Highlights</h3> <ul style="color: #94a3b8; font-size: 14px; line-height: 2.2;"> <li>✦ Real-time threat detection using deep learning</li> <li>✦ Anomaly detection with unsupervised learning</li> <li>✦ Automated incident response system</li> <li>✦ Advanced encryption and zero-trust architecture</li> </ul> </td> <td width="45%" valign="top" style="padding: 20px;"> <h3 style="color: #8B5CF6; font-size: 22px;">🛠️ Tech Stack</h3> <p> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <br> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <br> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" /> <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /> </p> <br> <h3 style="color: #8B5CF6; font-size: 22px;">📊 Architecture</h3> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=120&section=header&text=CYBERNOVA%20Flow&fontSize=20&fontColor=ffffff" width="100%" /> <br><br> <p align="center"> <a href="#"><img src="https://img.shields.io/badge/🔗_Repository-181717?style=flat-square&logo=github&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/🌐_Demo-000000?style=flat-square&logo=vercel&logoColor=white" /></a> </p> <p align="center"> <img src="https://img.shields.io/badge/🟢_In_Development-22C55E?style=flat-square" /> </p> </td> </tr> </table> </div>
+<!-- 3D WAVE DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- RESEARCH SECTION WITH AI BACKGROUND -->
+🔬 Research & Innovation
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.15); padding: 20px; width: 95%;"> <tr> <td valign="top" width="33%" style="padding: 15px; background: rgba(59, 130, 246, 0.03); border-radius: 20px; border: 1px solid rgba(59, 130, 246, 0.08);"> <h3 style="color: #3B82F6; font-size: 20px;">🔭 Research Focus</h3> <ul style="color: #94a3b8; font-size: 14px; line-height: 2.5;"> <li>⚡ Large Language Models</li> <li>⚡ Distributed AI Systems</li> <li>⚡ GPU Computing</li> <li>⚡ AI Infrastructure</li> </ul> </td> <td valign="top" width="33%" style="padding: 15px; background: rgba(139, 92, 246, 0.03); border-radius: 20px; border: 1px solid rgba(139, 92, 246, 0.08);"> <h3 style="color: #8B5CF6; font-size: 20px;">🏢 Research Experience</h3> <ul style="color: #94a3b8; font-size: 14px; line-height: 2.5;"> <li>🔬 Microsoft Research India</li> <li>🧪 IIT Madras HPC Lab</li> <li>🎓 B.E. Computer Science</li> <li>📊 IIT Madras Data Science</li> </ul> </td> <td valign="top" width="33%" style="padding: 15px; background: rgba(236, 72, 153, 0.03); border-radius: 20px; border: 1px solid rgba(236, 72, 153, 0.08);"> <h3 style="color: #EC4899; font-size: 20px;">📈 Research Goals</h3> <ul style="color: #94a3b8; font-size: 14px; line-height: 2.5;"> <li>📌 2024: AI Systems</li> <li>📌 2025: Distributed AI</li> <li>📌 2026: AI Infrastructure</li> <li>📌 Future: Publications</li> </ul> </td> </tr> </table> </div>
+<!-- GLOW DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- TECH STACK WITH 3D GLASS CARDS -->
+⚡ Technical Arsenal
+
+<div align="center" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.1); padding: 25px; width: 95%;">
+🖥️ Core Languages
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Java-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CPP.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Rust.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/GoLang.svg" width="52" /> </p>
+🎨 Frontend
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" width="52" /> </p>
+⚙️ Backend & AI
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ExpressJS-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/FastAPI.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PyTorch-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TensorFlow-Dark.svg" width="52" /> </p>
+🗄️ Databases & Cloud
+
+<p align="center"> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PostgreSQL-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Redis-Dark.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Docker.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Kubernetes.svg" width="52" /> <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg" width="52" /> </p></div>
+<!-- ANIMATED DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- GITHUB ANALYTICS WITH GLASS CARDS -->
+📊 GitHub Analytics
+
+<div align="center"> <table> <tr> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 15px; border: 1px solid rgba(59, 130, 246, 0.1);"> <img src="https://github-readme-stats.vercel.app/api?username=AdityaVawhal15-maker&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0a0e17&title_color=3B82F6&icon_color=8B5CF6&text_color=ffffff&custom_title=⚡%20Aditya's%20Stats" width="100%" /> </td> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 15px; border: 1px solid rgba(139, 92, 246, 0.1);"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaVawhal15-maker&layout=compact&theme=radical&hide_border=true&bg_color=0a0e17&title_color=3B82F6&text_color=ffffff&custom_title=📊%20Top%20Languages" width="100%" /> </td> </tr> </table> </div><div align="center"> <table> <tr> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 15px; border: 1px solid rgba(236, 72, 153, 0.1);"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaVawhal15-maker&theme=radical&hide_border=true&background=0a0e17&stroke=3B82F6&ring=3B82F6&fire=8B5CF6&currStreakNum=ffffff&sideNums=3B82F6&currStreakLabel=3B82F6&sideLabels=3B82F6&dates=ffffff" width="100%" /> </td> <td width="50%" style="background: rgba(10, 14, 23, 0.7); backdrop-filter: blur(20px); border-radius: 20px; padding: 15px; border: 1px solid rgba(6, 182, 212, 0.1);"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaVawhal15-maker&custom_title=📈%20Contribution%20Graph&theme=react-dark&bg_color=0a0e17&hide_border=true&line=3B82F6&point=8B5CF6&color=ffffff" width="100%" /> </td> </tr> </table> </div><div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=AdityaVawhal15-maker&theme=radical&no-frame=true&no-bg=true&row=1&column=6&margin-w=10&margin-h=10" width="100%" /> </div>
+<!-- GLOW DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- PROFESSIONAL TIMELINE WITH 3D EFFECT -->
+📈 Professional Timeline
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.1); padding: 15px; width: 95%;"> <tr> <td align="center" width="20%" style="background: rgba(59, 130, 246, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(59, 130, 246, 0.08);"> <b style="color: #3B82F6; font-size: 16px;">🎓 2024</b> <br><sub style="color: #94a3b8; font-size: 12px;">B.E. Computer Science<br>AI & ML</sub> </td> <td align="center" width="5%"> <b style="color: #3B82F6; font-size: 20px;">➡</b> </td> <td align="center" width="20%" style="background: rgba(139, 92, 246, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(139, 92, 246, 0.08);"> <b style="color: #8B5CF6; font-size: 16px;">🎓 2024</b> <br><sub style="color: #94a3b8; font-size: 12px;">IIT Madras<br>Data Science</sub> </td> <td align="center" width="5%"> <b style="color: #8B5CF6; font-size: 20px;">➡</b> </td> <td align="center" width="20%" style="background: rgba(236, 72, 153, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(236, 72, 153, 0.08);"> <b style="color: #EC4899; font-size: 16px;">🔬 2024</b> <br><sub style="color: #94a3b8; font-size: 12px;">Microsoft Research<br>AI Research</sub> </td> </tr> <tr> <td align="center" width="20%" style="background: rgba(6, 182, 212, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(6, 182, 212, 0.08);"> <b style="color: #06B6D4; font-size: 16px;">🧪 2024</b> <br><sub style="color: #94a3b8; font-size: 12px;">IIT Madras HPC<br>Research</sub> </td> <td align="center" width="5%"> <b style="color: #06B6D4; font-size: 20px;">➡</b> </td> <td align="center" width="20%" style="background: rgba(251, 191, 36, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(251, 191, 36, 0.08);"> <b style="color: #FBBF24; font-size: 16px;">🚀 2024</b> <br><sub style="color: #94a3b8; font-size: 12px;">IOI Innovation Club<br>Founder</sub> </td> <td align="center" width="5%"> <b style="color: #FBBF24; font-size: 20px;">➡</b> </td> <td align="center" width="20%" style="background: rgba(34, 197, 94, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(34, 197, 94, 0.08);"> <b style="color: #22C55E; font-size: 16px;">🔨 2024</b> <br><sub style="color: #94a3b8; font-size: 12px;">DeepEnk & CYBERNOVA<br>Development</sub> </td> </tr> </table> </div>
+<!-- WAVE DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- ENGINEERING PHILOSOPHY WITH 3D GLASS CARDS -->
+🎯 Engineering Philosophy
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.1); padding: 15px; width: 95%;"> <tr> <td width="25%" align="center" style="background: rgba(59, 130, 246, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(59, 130, 246, 0.08);"> <img src="https://img.icons8.com/color/40/000000/simple.png" /> <br><b style="color: #3B82F6; font-size: 16px;">Simple</b> <br><sub style="color: #94a3b8; font-size: 12px;">before complex</sub> </td> <td width="25%" align="center" style="background: rgba(139, 92, 246, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(139, 92, 246, 0.08);"> <img src="https://img.icons8.com/color/40/000000/reliable.png" /> <br><b style="color: #8B5CF6; font-size: 16px;">Reliable</b> <br><sub style="color: #94a3b8; font-size: 12px;">before clever</sub> </td> <td width="25%" align="center" style="background: rgba(236, 72, 153, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(236, 72, 153, 0.08);"> <img src="https://img.icons8.com/color/40/000000/maintenance.png" /> <br><b style="color: #EC4899; font-size: 16px;">Maintainable</b> <br><sub style="color: #94a3b8; font-size: 12px;">before rushed</sub> </td> <td width="25%" align="center" style="background: rgba(6, 182, 212, 0.05); border-radius: 15px; padding: 15px; border: 1px solid rgba(6, 182, 212, 0.08);"> <img src="https://img.icons8.com/color/40/000000/read.png" /> <br><b style="color: #06B6D4; font-size: 16px;">Readable</b> <br><sub style="color: #94a3b8; font-size: 12px;">before optimized</sub> </td> </tr> </table> </div>
+<!-- GLOW DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- ACHIEVEMENTS WITH 3D GLASS CARDS -->
+🌟 Achievements
+
+<div align="center"> <table style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(25px); border-radius: 30px; border: 1px solid rgba(59, 130, 246, 0.1); padding: 15px; width: 95%;"> <tr> <td align="center" width="33%" style="background: rgba(59, 130, 246, 0.05); border-radius: 20px; padding: 20px; border: 1px solid rgba(59, 130, 246, 0.08);"> <img src="https://img.icons8.com/color/48/000000/research.png" /> <br><b style="color: #3B82F6; font-size: 17px;">Research Excellence</b> <br><sub style="color: #94a3b8; font-size: 12px;">Microsoft Research India</sub> <br><sub style="color: #94a3b8; font-size: 12px;">IIT Madras HPC Lab</sub> </td> <td align="center" width="33%" style="background: rgba(139, 92, 246, 0.05); border-radius: 20px; padding: 20px; border: 1px solid rgba(139, 92, 246, 0.08);"> <img src="https://img.icons8.com/color/48/000000/leadership.png" /> <br><b style="color: #8B5CF6; font-size: 17px;">Leadership</b> <br><sub style="color: #94a3b8; font-size: 12px;">Founder - IOI Innovation Club</sub> <br><sub style="color: #94a3b8; font-size: 12px;">Developer Community Lead</sub> </td> <td align="center" width="33%" style="background: rgba(236, 72, 153, 0.05); border-radius: 20px; padding: 20px; border: 1px solid rgba(236, 72, 153, 0.08);"> <img src="https://img.icons8.com/color/48/000000/education.png" /> <br><b style="color: #EC4899; font-size: 17px;">Academic Excellence</b> <br><sub style="color: #94a3b8; font-size: 12px;">B.E. Computer Science</sub> <br><sub style="color: #94a3b8; font-size: 12px;">IIT Madras Data Science</sub> </td> </tr> </table> </div>
+<!-- ANIMATED DIVIDER --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<!-- CONNECT SECTION -->
+💬 Connect With Me
+
+<div align="center"> <a href="https://github.com/AdityaVawhal15-maker"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://linkedin.com/in/adityavawhal"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="mailto:adityavawhal15@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" /> </a> <a href="#"> <img src="https://img.shields.io/badge/Website-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white" /> </a> </div>
+<!-- SNAKE ANIMATION --><div align="center"> <img src="https://raw.githubusercontent.com/AdityaVawhal15-maker/AdityaVawhal15-maker/output/snake.svg" alt="Snake animation" /> </div>
+<!-- FINAL QUOTE --><div align="center"> <blockquote style="background: rgba(10, 14, 23, 0.85); backdrop-filter: blur(25px); border-radius: 25px; padding: 25px; border-left: 4px solid #3B82F6; max-width: 850px;"> <p style="color: #cbd5e1; font-size: 18px; line-height: 1.8; font-style: italic;"> "Build software that positively impacts millions through intelligent engineering. Create scalable, maintainable, reliable systems. Contribute to open source. Publish meaningful research. Continuously improve." </p> </blockquote> </div>
+<!-- FOOTER --><div align="center"> <sub><b style="color: #3B82F6; font-size: 14px;">Built with ❤️ by Aditya Vawhal</b></sub> <br> <sub><b style="color: #8B5CF6; font-size: 12px;">© 2024 · AI Systems Engineer</b></sub> <br> <sub><i style="color: #EC4899; font-size: 12px;">✦ Top 1% Tech Professional ✦</i></sub> </div>
+<!-- ANIMATED WAVE FOOTER --><p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20,22,24,26,28,30&height=100&section=footer" width="100%" /> </p>
